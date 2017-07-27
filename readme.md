@@ -18,7 +18,7 @@ git clone https://github.com/cyberid41/crud-using-repository-laravel-5-3.git
 composer install
 ```
 
-**3. Setup database config `.env` **
+**3. Setup database config `.env`**
 
 ```sh
 ...
@@ -42,13 +42,13 @@ php artisan migrate
 **5. Running Database Seeder**
 
 ```sh
-php artisan db:migrate
+php artisan db:seed
 ```
 
 **6. Running Development Server**
 
 ```sh
-php serve
+php artisan serve
 ```
 
 > Please open the following url `localhost:8000`
